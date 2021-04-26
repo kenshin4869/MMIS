@@ -80,8 +80,11 @@ WSGI_APPLICATION = 'MMIS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '10.183.30.169',
+        'NAME': 'mmis_test1',
+        'USER': 'root',
+        'PASSWORD': 'Fzyd@2021',
     }
 }
 
